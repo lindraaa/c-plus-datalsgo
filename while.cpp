@@ -1,21 +1,17 @@
 #include <iostream>
 using namespace std;
-#define MAX 100
-int main(){
-    string age, gen;
-    char again = 'Y';
-    char fn[MAX]={0};
 
-	while (again == 'Y' || again== 'y')
-	{
-    system("cls");
+int main(){
+    string fn, age, gen;
+    char again = ' ';
+    home:
     cout <<"------------------------------" <<endl;
     cout <<"Enter Customer's Details " << endl;
     cout <<"------------------------------" <<endl;    
     
     cout <<"\nENTER FULLNAME: ";
     cin.ignore();
-    cin.getline(fn,MAX);
+    getline(cin, fn);
     cout <<"\nENTER AGE: ";
     getline(cin, age);
     cout <<"\nENTER GENDER: ";
@@ -30,12 +26,11 @@ int main(){
     cout <<"GENDER: " << gen <<endl;
 
     cout <<"Do you want to continue? Type Y or y/ N or n: " ;
-        cin >> again; 
-        
-	}
-    cout <<"\n------------------------------" <<endl;
-    cout <<"Program Terminated! "<< endl;
-    cout <<"------------------------------" <<endl;
-    system("pause");
+        cin >> again;
+        while(again == 'Y' || again== 'y'){
+            system("cls"); goto home;
+        }
+        cout <<"HI";
+    return 0;
 
 }
