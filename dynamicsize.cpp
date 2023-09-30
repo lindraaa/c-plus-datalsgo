@@ -13,5 +13,5 @@ int main(){
 	cout << "size = " << data.size();
  /* Adding the size is use the push_back function
   	and I use data.size to get the length of 
-  	the arrays has been added */
+  	the arrays has been added*/
 }
