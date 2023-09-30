@@ -25,5 +25,6 @@ int main(){
        cout <<"\nAfter sorting the array are >> ";
        for (int a = 0 ; a<8 ; a++) {
            cout << listofarray[a] << " | ";
+           
        }
 }
