@@ -70,6 +70,7 @@ void recTangle()
   cout << "Enter the width of rectangle: ";
   cin >> wiD;
   cout << "The area of the rectangle is: " << findArearec (leN, wiD);
+
 }
 
 void circle(){
