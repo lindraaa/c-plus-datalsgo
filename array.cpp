@@ -18,4 +18,5 @@ int main()
 	cout << "Total =  " << total ;
 	cout << "\naverage =" << average;
 	cout << "\nIn two years = " << totalinyrs;
+
 }
