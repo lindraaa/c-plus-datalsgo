@@ -1,3 +1,5 @@
+//fixed arrays
+
 #include <iostream>
 #include <array>
 
