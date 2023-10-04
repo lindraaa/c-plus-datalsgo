@@ -25,7 +25,7 @@ double findAreatriangle(double x , double y){
 	void triangle();
 int main()
 {	
-	
+	//data
 	char choicesProgram = ' ';
 	
 	
