@@ -22,6 +22,7 @@ int main(){
                  listofarray[b] = listofarray[b+1];
                  listofarray[b+1] = swap;
 
+           
             }            
     }
     }
