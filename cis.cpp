@@ -59,7 +59,8 @@ int main()
 		
 		case '0':
 		break;
-		 	
+
+		
 }
 }
 void recTangle()
