@@ -8,6 +8,7 @@ int main(){
 	int x = *(pData+3);
 	cout << x;
 	
+
 	/*std array use for assigning values at the time of 
 	 declaration */
 
