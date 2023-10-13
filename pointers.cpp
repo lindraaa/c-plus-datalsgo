@@ -2,6 +2,7 @@
 using namespace std;
 
 int main ()
+
 {
 	int luckynumbers[5];//={2,3,5,7,9};
 	/*cout << luckynumbers[0] <<endl;
