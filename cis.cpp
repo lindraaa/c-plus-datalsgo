@@ -88,3 +88,4 @@ void triangle(){
 	cin >> height;
 	cout <<"The area of trianlge is " << findAreatriangle(base, height);
 }
+
