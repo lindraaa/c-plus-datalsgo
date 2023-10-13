@@ -19,6 +19,7 @@ void deletequeue(queue<int> queue){
 
 
 
+
 int main (){
  queue<int> numberQueue;
 numberQueue.push(24);
