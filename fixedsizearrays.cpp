@@ -2,7 +2,6 @@
 
 #include <iostream>
 #include <array>
-
 template <typename T, std::size_t size>
 void print_array(const std::array<T, size>& data)
 {
