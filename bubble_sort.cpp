@@ -26,7 +26,8 @@ int main(){
             }            
     }
     }
-    cout <<"\nThe bubble sort of the array is >> " ;
+  
+  cout <<"\nThe bubble sort of the array is >> " ;
     for(int a = 0; a < 5; a++){
         cout << listofarray[a] << " | " ;
     }
