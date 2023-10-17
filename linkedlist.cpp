@@ -72,6 +72,7 @@ void insertnodeattheend(int num){
 }
 
 
+
 int main(){
     int n, num;
     cout <<"Input the number of nodes: ";
