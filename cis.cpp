@@ -26,7 +26,8 @@ double findAreatriangle(double x , double y){
 int main()
 {	
 	//data
-	char choicesProgram = ' ';
+	
+char choicesProgram = ' ';
 	
 	
 	cout << "To start the program enter: " << endl;
