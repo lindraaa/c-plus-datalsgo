@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
+
 	std::vector<int> data{1, 2, 3, 4};
 	data.push_back(5);
 	data.push_back(6);
