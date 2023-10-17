@@ -13,6 +13,7 @@ int main()
 	    total += monthsarray[i];
 	}	
 
+
 	float average = total/ 6;
 	float totalinyrs = average*24;
 	cout << "Total =  " << total ;
